@@ -1,0 +1,18 @@
+$default-pixels: 15px;
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.App h1 {
+  color: red;
+}
+
+#link {
+  margin-right: $default-pixels;
+  margin-left: $default-pixels;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

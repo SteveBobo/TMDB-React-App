@@ -1,0 +1,44 @@
+$default-pixels: 5px;
+
+#genre_container {
+  background-color: black;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  height: 5em;
+  text-align: center;
+}
+
+#genre_label {
+  float: left;
+  margin-left: 1.8em;
+  margin-bottom: $default-pixels;
+}
+
+#genre {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: $default-pixels;
+  border-radius: $default-pixels;
+}
+
+#gallery_results {
+  display: inline-block;
+  grid-template-columns: 1fr;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin: auto;
+  width: 10%;
+  padding-left: 20px;
+}
+
+#gallery_container {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#gallery_container:hover {
+  transform: scale(1.20);
+}

@@ -1,0 +1,90 @@
+$default-pixels: 5px;
+$default-padding: 10px;
+
+.Search {
+  text-align: center;
+}
+
+form {
+  background-color: black;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  padding: $default-padding;
+  height: 9em;
+  text-align: center;
+
+}
+
+#show_search {
+  width: 90%;
+  padding: $default-padding;
+  margin-bottom: $default-pixels;
+  border-radius: $default-pixels;
+}
+
+#sort_label {
+  float: left;
+  margin-left: 1.2em;
+  margin-top: $default-pixels;
+  margin-bottom: $default-pixels;
+}
+
+#sort {
+  width: 94%;
+  padding: $default-padding;
+  margin-bottom: $default-pixels;
+  border-radius: $default-pixels;
+}
+
+.radio {
+  float: left;
+}
+
+#ascending {
+  margin-left: 1.5em;
+}
+
+#search_results {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: lightgray solid 1px;
+  margin: auto;
+  width: 40.5%;
+  padding-left: $default-padding;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+#search_results:hover {
+  background-color: grey;
+  width: 45.5%;
+
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#poster {
+  width: 100px;
+  margin: 1em;
+}
+
+#poster_container {
+  flex: 1;
+  margin-right: 20px
+}
+
+#info_container {
+  height: 100%;
+  margin-top: 1em;
+  text-align: left;
+}
